@@ -1,0 +1,32 @@
+#flexbox{
+    display: grid;
+   grid-template-columns: auto auto auto;
+   margin: 10px;
+   text-align: center;
+   border-radius: 10px;
+   border: 15px;
+   border-style: groove;
+   border-width: 10px;
+   border-collapse: collapse;
+   border-left: 100%;
+}
+#img{
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border: 10px;
+    border-radius: 10px;
+    border-color: turquoise;
+    border-style: groove;
+    object-fit: cover;
+}
+h1{
+    color: violet;
+    stroke: blue;
+    transition-property: initial;
+    text-align: center;
+    flex-wrap: wrap;
+    text-overflow: clip;
+    text-decoration: underline;
+}
